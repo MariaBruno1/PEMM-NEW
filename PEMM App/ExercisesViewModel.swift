@@ -7,14 +7,11 @@
 
 import Foundation
 
-class ExercisesViewModel {
-    
-    var excercises = [
-        [
-            Exercise(exerciseName: "Yoga", imageName: "Yoga image" )],
-    [
-        Exercise(exerciseName: "Breathing", imageName: "Breathing image")],
-    [
-        Exercise(exerciseName: "Pilates", imageName: "Pilates image") ],
-        ]
+class ExerciseViewModel {
+    var exercises = [
+        Exercise(name: "Yoga", imageName: "Yoga image"),
+        Exercise(name: "Breathing", imageName: "Breathing image"),
+        Exercise(name: "Pilates", imageName: "Pilates image")
+    ]
 }
+    

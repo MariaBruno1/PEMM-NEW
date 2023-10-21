@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
+
 @main
-struct PemmApp: App {
+struct PEMMApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
-
