@@ -9,19 +9,27 @@ import SwiftUI
 struct ExerciseListView: View {
     var exerciseVM = ExerciseViewModel()
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                ForEach(exerciseVM.exercises) { exercise in
-                    ExerciseCardView(exercise: exercise)
-                        .padding()
+        NavigationView {
+            NavigationLink(destination: TimeandPlaceListView(), label:{
+            NavigationStack {
+                VStack{
+                    ScrollView {
+                        ForEach(exerciseVM.exercises) { exercise in
+                            ExerciseCardView(exercise: exercise)
+                                .padding()
+                        }
+                            }
+                        }
+                    .navigationTitle ("Select exercise")
                 }
-                
+            
             }
-            .navigationTitle ("Select exercise")
-        }
-    }
-}
         
+        )}
+                           }
+                           }
+    
+
     
 
 
