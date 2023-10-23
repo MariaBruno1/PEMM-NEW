@@ -13,9 +13,12 @@ struct TimeandPlaceListView: View {
     var body: some View {
         
         NavigationStack {
-            VStack {
-                DatePicker("", selection: $currentDate, displayedComponents: .hourAndMinute)
-                    .labelsHidden()
+            VStack {Picker(selection: .constant(1), label: Text("Picker")) {
+                Text("10-15 Mins").tag(0)
+                Text("15-30 Mins").tag(1)
+                Text("1 Hour").tag(2)
+                Text("more...").tag(3)
+                
             }
             ScrollView {
                 ForEach(timeandplaceVM.places) { timeandplace in TimeandPlaceCardView(timeandplace: timeandplace)
@@ -30,7 +33,8 @@ struct TimeandPlaceListView: View {
         }
     }
 }
-                
+    
+}
 #Preview {
     TimeandPlaceListView()
 }
