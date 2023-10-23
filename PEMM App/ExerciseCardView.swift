@@ -14,7 +14,7 @@ struct ExerciseCardView: View {
         ZStack(alignment:.bottomLeading) {
             Image(exercise.imageName)
                 .resizable()
-                .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                .aspectRatio(contentMode: .fill)
                 .frame (height: 200)
                 .clipped()
             

@@ -14,7 +14,7 @@ struct TimeandPlaceCardView: View {
         ZStack(alignment:.bottomLeading) {
             Image(timeandplace.imageName)
                 .resizable()
-                .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                .aspectRatio(contentMode: .fill)
                 .frame (height: 200.0)
                 .clipped()
             
@@ -30,7 +30,7 @@ struct TimeandPlaceCardView: View {
             .padding()
         }
         .clipShape(RoundedRectangle(cornerRadius: 20))
-        .frame(height:206.0)
+        .frame(height:190.0)
     }
 }
 
