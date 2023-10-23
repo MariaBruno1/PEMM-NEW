@@ -11,7 +11,7 @@ import SwiftUI
 struct PEMMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
         }
     }
 }

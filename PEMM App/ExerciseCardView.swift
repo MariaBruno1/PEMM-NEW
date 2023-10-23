@@ -23,7 +23,7 @@ struct ExerciseCardView: View {
                            endPoint: .bottom)
             VStack(alignment:.leading) {
                 Text(exercise.name)
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.title)
                     .bold()
             }
             .foregroundStyle(.white)

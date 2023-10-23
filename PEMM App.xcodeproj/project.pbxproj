@@ -17,7 +17,6 @@
 		66CBB7BB2AE26B2000E9FA79 /* PEMM App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7BA2AE26B2000E9FA79 /* PEMM App.swift */; };
 		66CBB7BF2AE279E400E9FA79 /* ExercisesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7BE2AE279E400E9FA79 /* ExercisesViewModel.swift */; };
 		66CBB7C12AE285E000E9FA79 /* ExerciseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7C02AE285E000E9FA79 /* ExerciseCardView.swift */; };
-		66CBB7D92AE424B000E9FA79 /* Content View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7D82AE424B000E9FA79 /* Content View.swift */; };
 		66CBB7DB2AE425DB00E9FA79 /* Time and Place Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7DA2AE425DB00E9FA79 /* Time and Place Picker.swift */; };
 		66CBB7DD2AE4260A00E9FA79 /* Time and Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7DC2AE4260A00E9FA79 /* Time and Place.swift */; };
 		66CBB7DF2AE4263300E9FA79 /* TimeandPlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7DE2AE4263300E9FA79 /* TimeandPlaceModel.swift */; };
@@ -56,7 +55,6 @@
 		66CBB7BA2AE26B2000E9FA79 /* PEMM App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PEMM App.swift"; sourceTree = "<group>"; };
 		66CBB7BE2AE279E400E9FA79 /* ExercisesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewModel.swift; sourceTree = "<group>"; };
 		66CBB7C02AE285E000E9FA79 /* ExerciseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCardView.swift; sourceTree = "<group>"; };
-		66CBB7D82AE424B000E9FA79 /* Content View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content View.swift"; sourceTree = "<group>"; };
 		66CBB7DA2AE425DB00E9FA79 /* Time and Place Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time and Place Picker.swift"; sourceTree = "<group>"; };
 		66CBB7DC2AE4260A00E9FA79 /* Time and Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time and Place.swift"; sourceTree = "<group>"; };
 		66CBB7DE2AE4263300E9FA79 /* TimeandPlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeandPlaceModel.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				66CBB7902AE2666C00E9FA79 /* Assets.xcassets */,
 				66CBB7922AE2666C00E9FA79 /* Preview Content */,
 				66CBB7BE2AE279E400E9FA79 /* ExercisesViewModel.swift */,
-				66CBB7D82AE424B000E9FA79 /* Content View.swift */,
 			);
 			path = "PEMM App";
 			sourceTree = "<group>";
@@ -294,7 +291,6 @@
 				66CBB7BF2AE279E400E9FA79 /* ExercisesViewModel.swift in Sources */,
 				66CBB7BB2AE26B2000E9FA79 /* PEMM App.swift in Sources */,
 				66CBB7DD2AE4260A00E9FA79 /* Time and Place.swift in Sources */,
-				66CBB7D92AE424B000E9FA79 /* Content View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
