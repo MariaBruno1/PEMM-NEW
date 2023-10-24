@@ -30,7 +30,7 @@ struct ExerciseCardView: View {
             .padding()
         }
         .clipShape(RoundedRectangle(cornerRadius: 20))
-        .frame(height:190)
+        .frame( width: 360 , height:190  )
     }
 }
 

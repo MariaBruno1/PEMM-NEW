@@ -15,7 +15,7 @@ struct TimeandPlaceCardView: View {
             Image(timeandplace.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame (height: 200.0)
+                .frame (width: 360, height: 200)
                 .clipped()
             
             LinearGradient(colors: [.clear, .black.opacity(0.4)],
@@ -30,7 +30,7 @@ struct TimeandPlaceCardView: View {
             .padding()
         }
         .clipShape(RoundedRectangle(cornerRadius: 20))
-        .frame(height:190.0)
+        .frame(width: 360 , height:190)
     }
 }
 

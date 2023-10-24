@@ -16,19 +16,14 @@ struct TimeandPlaceListView: View {
             ZStack {
                 Color("det")
                     .ignoresSafeArea()
-                VStack {Picker(selection: .constant(1), label:
-                    Text("Picker")) {
-                    Text("10-15 Mins").tag(0)
-                    Text("15-30 Mins").tag(1)
-                    Text("1 Hour").tag(2)
-                    Text("more...").tag(3)
+                VStack {
                     
                 }
                     ScrollView {
                         
                         ForEach(timeandplaceVM.places) { timeandplace in TimeandPlaceCardView(timeandplace: timeandplace)
                                 .padding()
-                                .frame(width: 400.0, height: 220.0)
+                                .frame(width: 390.0, height: 210.0)
                         }
                         .navigationTitle("Select time and place")
                         
@@ -40,7 +35,7 @@ struct TimeandPlaceListView: View {
         }
     }
     
-}
+
 #Preview {
     TimeandPlaceListView()
 }

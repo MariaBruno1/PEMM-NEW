@@ -20,6 +20,7 @@ struct ExerciseListView: View {
                                 ForEach(exerciseVM.exercises) { exercise in
                                     ExerciseCardView(exercise: exercise)
                                         .padding()
+                                        .frame(width: 390.0, height: 210.0)
                                     
                                 }
                             }
