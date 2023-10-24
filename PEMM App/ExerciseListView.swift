@@ -24,7 +24,7 @@ struct ExerciseListView: View {
                                 }
                             }
                         }
-                        .navigationTitle ("Select exercise")
+                        .navigationTitle ("Select the exercise")
                     }
                     
                 }
