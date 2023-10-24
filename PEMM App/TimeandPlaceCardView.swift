@@ -18,12 +18,12 @@ struct TimeandPlaceCardView: View {
                 .frame (width: 360, height: 200)
                 .clipped()
             
-            LinearGradient(colors: [.clear, .black.opacity(0.4)],
+            LinearGradient(colors: [.clear, .black.opacity(0.9)],
                            startPoint: .top,
                            endPoint: .bottom)
             VStack(alignment:.leading) {
                 Text(timeandplace.name)
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.title)
                     .bold()
             }
             .foregroundStyle(.white)

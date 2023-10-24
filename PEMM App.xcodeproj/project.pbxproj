@@ -21,6 +21,7 @@
 		66CBB7DF2AE4263300E9FA79 /* TimeandPlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7DE2AE4263300E9FA79 /* TimeandPlaceModel.swift */; };
 		66CBB7E12AE4266000E9FA79 /* TimeandPlaceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7E02AE4266000E9FA79 /* TimeandPlaceCardView.swift */; };
 		66CBB7E32AE4268900E9FA79 /* TimeandPlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7E22AE4268900E9FA79 /* TimeandPlaceListView.swift */; };
+		AA0459952AE7CB6600010BB9 /* Segment control.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0459942AE7CB6600010BB9 /* Segment control.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		66CBB7DE2AE4263300E9FA79 /* TimeandPlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeandPlaceModel.swift; sourceTree = "<group>"; };
 		66CBB7E02AE4266000E9FA79 /* TimeandPlaceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeandPlaceCardView.swift; sourceTree = "<group>"; };
 		66CBB7E22AE4268900E9FA79 /* TimeandPlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeandPlaceListView.swift; sourceTree = "<group>"; };
+		AA0459942AE7CB6600010BB9 /* Segment control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segment control.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				66CBB7C02AE285E000E9FA79 /* ExerciseCardView.swift */,
 				66CBB78E2AE2666B00E9FA79 /* ExerciseListView.swift */,
 				66CBB7DC2AE4260A00E9FA79 /* Time and Place.swift */,
+				AA0459942AE7CB6600010BB9 /* Segment control.swift */,
 				66CBB7DE2AE4263300E9FA79 /* TimeandPlaceModel.swift */,
 				66CBB7E02AE4266000E9FA79 /* TimeandPlaceCardView.swift */,
 				66CBB7E22AE4268900E9FA79 /* TimeandPlaceListView.swift */,
@@ -286,6 +289,7 @@
 				66CBB7E12AE4266000E9FA79 /* TimeandPlaceCardView.swift in Sources */,
 				66CBB7BF2AE279E400E9FA79 /* ExercisesViewModel.swift in Sources */,
 				66CBB7BB2AE26B2000E9FA79 /* PEMM App.swift in Sources */,
+				AA0459952AE7CB6600010BB9 /* Segment control.swift in Sources */,
 				66CBB7DD2AE4260A00E9FA79 /* Time and Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PEMM App/Preview Content\"";
-				DEVELOPMENT_TEAM = T5C2RB4SL5;
+				DEVELOPMENT_TEAM = 6LV4JK247F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -463,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "developer.academy.PEMM-App";
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -479,7 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PEMM App/Preview Content\"";
-				DEVELOPMENT_TEAM = T5C2RB4SL5;
+				DEVELOPMENT_TEAM = 6LV4JK247F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -492,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "developer.academy.PEMM-App";
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

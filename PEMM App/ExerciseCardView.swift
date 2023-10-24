@@ -21,6 +21,7 @@ struct ExerciseCardView: View {
             LinearGradient(colors: [.clear, .black.opacity(0.9)],
                            startPoint: .top,
                            endPoint: .bottom)
+            
             VStack(alignment:.leading) {
                 Text(exercise.name)
                     .font(.title)
@@ -30,7 +31,7 @@ struct ExerciseCardView: View {
             .padding()
         }
         .clipShape(RoundedRectangle(cornerRadius: 20))
-        .frame( width: 360 , height:190  )
+        .frame(width: 360 , height:190)
     }
 }
 
