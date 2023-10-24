@@ -15,7 +15,7 @@ struct ExerciseCardView: View {
             Image(exercise.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame (height: 200)
+                .frame (width: 360, height: 200)
                 .clipped()
             
             LinearGradient(colors: [.clear, .black.opacity(0.9)],
