@@ -10,28 +10,29 @@ struct ExerciseListView: View {
     var exerciseVM = ExerciseViewModel()
     var body: some View {
         NavigationView {
-            NavigationLink(destination: TimeandPlaceListView(), label:{
-                NavigationStack {
-                    ZStack {
-                        Color("det")
-                            .ignoresSafeArea()
-                        VStack{
-                            ScrollView {
-                                ForEach(exerciseVM.exercises) { exercise in
-                                    ExerciseCardView(exercise: exercise)
-                                        .padding()
-                                        .frame(width: 390.0, height: 210.0)
-                                    
-                                }
+            
+            ZStack {
+                Color("det")
+                    .ignoresSafeArea()
+                VStack{
+                    ScrollView {
+                        ForEach(exerciseVM.exercises) { exercise in
+                            
+                            NavigationLink(){
+                                TimeandPlaceListView()
+                            }label:{
+                                ExerciseCardView(exercise: exercise)
+                                    .padding()
+                                    .frame(width: 390.0, height: 210.0)
+                                
                             }
                         }
-                        .navigationTitle ("Select the exercise")
                     }
-                    
+                    .navigationTitle ("Select the exercise")
                 }
                 
-                }
-            )}
+            }
+        }
     }
 }
                 
