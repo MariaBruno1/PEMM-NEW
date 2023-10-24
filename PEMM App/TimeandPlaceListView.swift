@@ -25,6 +25,7 @@ struct TimeandPlaceListView: View {
                     
                 }
                     ScrollView {
+                        
                         ForEach(timeandplaceVM.places) { timeandplace in TimeandPlaceCardView(timeandplace: timeandplace)
                                 .padding()
                                 .frame(width: 400.0, height: 220.0)

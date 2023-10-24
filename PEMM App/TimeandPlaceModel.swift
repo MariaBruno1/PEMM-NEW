@@ -10,6 +10,6 @@ class TimeandPlaceModel {
     
     var places = [
         TimeandPlace(name: "Home", imageName: "Home image"),
-        TimeandPlace(name: "University", imageName: "University image"),
+        TimeandPlace(name: "University", imageName: "University image2"),
         TimeandPlace(name: "Work", imageName: "Work image")]
 }
