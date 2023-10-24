@@ -21,6 +21,9 @@
 		66CBB7DF2AE4263300E9FA79 /* TimeandPlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7DE2AE4263300E9FA79 /* TimeandPlaceModel.swift */; };
 		66CBB7E12AE4266000E9FA79 /* TimeandPlaceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7E02AE4266000E9FA79 /* TimeandPlaceCardView.swift */; };
 		66CBB7E32AE4268900E9FA79 /* TimeandPlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7E22AE4268900E9FA79 /* TimeandPlaceListView.swift */; };
+		66CBB7ED2AE80D2600E9FA79 /* Advice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7EC2AE80D2600E9FA79 /* Advice.swift */; };
+		66CBB7F12AE815C900E9FA79 /* AdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7F02AE815C900E9FA79 /* AdviceModel.swift */; };
+		66CBB7F32AE822DD00E9FA79 /* AdviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7F22AE822DD00E9FA79 /* AdviceCardView.swift */; };
 		AA0459952AE7CB6600010BB9 /* Segment control.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0459942AE7CB6600010BB9 /* Segment control.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		66CBB7DE2AE4263300E9FA79 /* TimeandPlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeandPlaceModel.swift; sourceTree = "<group>"; };
 		66CBB7E02AE4266000E9FA79 /* TimeandPlaceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeandPlaceCardView.swift; sourceTree = "<group>"; };
 		66CBB7E22AE4268900E9FA79 /* TimeandPlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeandPlaceListView.swift; sourceTree = "<group>"; };
+		66CBB7EC2AE80D2600E9FA79 /* Advice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advice.swift; sourceTree = "<group>"; };
+		66CBB7F02AE815C900E9FA79 /* AdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceModel.swift; sourceTree = "<group>"; };
+		66CBB7F22AE822DD00E9FA79 /* AdviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceCardView.swift; sourceTree = "<group>"; };
 		AA0459942AE7CB6600010BB9 /* Segment control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segment control.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +120,9 @@
 				66CBB7BE2AE279E400E9FA79 /* ExercisesViewModel.swift */,
 				66CBB7C02AE285E000E9FA79 /* ExerciseCardView.swift */,
 				66CBB78E2AE2666B00E9FA79 /* ExerciseListView.swift */,
+				66CBB7EC2AE80D2600E9FA79 /* Advice.swift */,
+				66CBB7F02AE815C900E9FA79 /* AdviceModel.swift */,
+				66CBB7F22AE822DD00E9FA79 /* AdviceCardView.swift */,
 				66CBB7DC2AE4260A00E9FA79 /* Time and Place.swift */,
 				AA0459942AE7CB6600010BB9 /* Segment control.swift */,
 				66CBB7DE2AE4263300E9FA79 /* TimeandPlaceModel.swift */,
@@ -286,11 +295,14 @@
 				66CBB78F2AE2666B00E9FA79 /* ExerciseListView.swift in Sources */,
 				66CBB7DF2AE4263300E9FA79 /* TimeandPlaceModel.swift in Sources */,
 				66CBB7E32AE4268900E9FA79 /* TimeandPlaceListView.swift in Sources */,
+				66CBB7F12AE815C900E9FA79 /* AdviceModel.swift in Sources */,
 				66CBB7E12AE4266000E9FA79 /* TimeandPlaceCardView.swift in Sources */,
 				66CBB7BF2AE279E400E9FA79 /* ExercisesViewModel.swift in Sources */,
+				66CBB7ED2AE80D2600E9FA79 /* Advice.swift in Sources */,
 				66CBB7BB2AE26B2000E9FA79 /* PEMM App.swift in Sources */,
 				AA0459952AE7CB6600010BB9 /* Segment control.swift in Sources */,
 				66CBB7DD2AE4260A00E9FA79 /* Time and Place.swift in Sources */,
+				66CBB7F32AE822DD00E9FA79 /* AdviceCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
