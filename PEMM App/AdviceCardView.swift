@@ -14,7 +14,7 @@ struct AdviceCardView: View {
     
     var body: some View {
         
-        VStack {
+        ScrollView {
             Text(advice.name)
                 .font(.title)
                 .bold()

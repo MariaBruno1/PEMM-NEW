@@ -24,6 +24,7 @@
 		66CBB7ED2AE80D2600E9FA79 /* Advice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7EC2AE80D2600E9FA79 /* Advice.swift */; };
 		66CBB7F12AE815C900E9FA79 /* AdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7F02AE815C900E9FA79 /* AdviceModel.swift */; };
 		66CBB7F32AE822DD00E9FA79 /* AdviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7F22AE822DD00E9FA79 /* AdviceCardView.swift */; };
+		66CBB7F52AE8FE1C00E9FA79 /* AdviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB7F42AE8FE1C00E9FA79 /* AdviceListView.swift */; };
 		AA0459952AE7CB6600010BB9 /* Segment control.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0459942AE7CB6600010BB9 /* Segment control.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		66CBB7EC2AE80D2600E9FA79 /* Advice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advice.swift; sourceTree = "<group>"; };
 		66CBB7F02AE815C900E9FA79 /* AdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceModel.swift; sourceTree = "<group>"; };
 		66CBB7F22AE822DD00E9FA79 /* AdviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceCardView.swift; sourceTree = "<group>"; };
+		66CBB7F42AE8FE1C00E9FA79 /* AdviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceListView.swift; sourceTree = "<group>"; };
 		AA0459942AE7CB6600010BB9 /* Segment control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segment control.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 				66CBB7EC2AE80D2600E9FA79 /* Advice.swift */,
 				66CBB7F02AE815C900E9FA79 /* AdviceModel.swift */,
 				66CBB7F22AE822DD00E9FA79 /* AdviceCardView.swift */,
+				66CBB7F42AE8FE1C00E9FA79 /* AdviceListView.swift */,
 				66CBB7DC2AE4260A00E9FA79 /* Time and Place.swift */,
 				AA0459942AE7CB6600010BB9 /* Segment control.swift */,
 				66CBB7DE2AE4263300E9FA79 /* TimeandPlaceModel.swift */,
@@ -300,6 +303,7 @@
 				66CBB7BF2AE279E400E9FA79 /* ExercisesViewModel.swift in Sources */,
 				66CBB7ED2AE80D2600E9FA79 /* Advice.swift in Sources */,
 				66CBB7BB2AE26B2000E9FA79 /* PEMM App.swift in Sources */,
+				66CBB7F52AE8FE1C00E9FA79 /* AdviceListView.swift in Sources */,
 				AA0459952AE7CB6600010BB9 /* Segment control.swift in Sources */,
 				66CBB7DD2AE4260A00E9FA79 /* Time and Place.swift in Sources */,
 				66CBB7F32AE822DD00E9FA79 /* AdviceCardView.swift in Sources */,
