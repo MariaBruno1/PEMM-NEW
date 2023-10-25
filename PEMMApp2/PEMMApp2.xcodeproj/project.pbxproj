@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66CBB8032AE906A000E9FA79 /* PEMMApp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8022AE906A000E9FA79 /* PEMMApp2App.swift */; };
+		66CBB8052AE906A000E9FA79 /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8042AE906A000E9FA79 /* ExerciseListView.swift */; };
+		66CBB8072AE906A000E9FA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CBB8062AE906A000E9FA79 /* Assets.xcassets */; };
+		66CBB80A2AE906A000E9FA79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CBB8092AE906A000E9FA79 /* Preview Assets.xcassets */; };
+		66CBB8142AE906A100E9FA79 /* PEMMApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8132AE906A100E9FA79 /* PEMMApp2Tests.swift */; };
+		66CBB81E2AE906A100E9FA79 /* PEMMApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB81D2AE906A100E9FA79 /* PEMMApp2UITests.swift */; };
+		66CBB8202AE906A100E9FA79 /* PEMMApp2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB81F2AE906A100E9FA79 /* PEMMApp2UITestsLaunchTests.swift */; };
+		66CBB82D2AE9071200E9FA79 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB82C2AE9071200E9FA79 /* Exercise.swift */; };
+		66CBB82F2AE907B000E9FA79 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB82E2AE907B000E9FA79 /* ExerciseViewModel.swift */; };
+		66CBB8312AE907D800E9FA79 /* ExerciseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8302AE907D800E9FA79 /* ExerciseCardView.swift */; };
+		66CBB8332AE9083500E9FA79 /* Time and Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8322AE9083500E9FA79 /* Time and Place.swift */; };
+		66CBB8352AE9086700E9FA79 /* TimeandPlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8342AE9086600E9FA79 /* TimeandPlaceModel.swift */; };
+		66CBB8372AE9088200E9FA79 /* TimeandPlaceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8362AE9088200E9FA79 /* TimeandPlaceCardView.swift */; };
+		66CBB8392AE908E000E9FA79 /* TimeandPlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8382AE908E000E9FA79 /* TimeandPlaceListView.swift */; };
+		66CBB83B2AE9093100E9FA79 /* Advice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB83A2AE9093100E9FA79 /* Advice.swift */; };
+		66CBB83D2AE91AB900E9FA79 /* AdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB83C2AE91AB900E9FA79 /* AdviceModel.swift */; };
+		66CBB83F2AE91ADA00E9FA79 /* AdviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB83E2AE91ADA00E9FA79 /* AdviceCardView.swift */; };
+		66CBB8412AE91B0500E9FA79 /* AdviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8402AE91B0500E9FA79 /* AdviceListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66CBB8102AE906A100E9FA79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CBB7F72AE906A000E9FA79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CBB7FE2AE906A000E9FA79;
+			remoteInfo = PEMMApp2;
+		};
+		66CBB81A2AE906A100E9FA79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CBB7F72AE906A000E9FA79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CBB7FE2AE906A000E9FA79;
+			remoteInfo = PEMMApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66CBB7FF2AE906A000E9FA79 /* PEMMApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PEMMApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CBB8022AE906A000E9FA79 /* PEMMApp2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEMMApp2App.swift; sourceTree = "<group>"; };
+		66CBB8042AE906A000E9FA79 /* ExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListView.swift; sourceTree = "<group>"; };
+		66CBB8062AE906A000E9FA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66CBB8092AE906A000E9FA79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66CBB80F2AE906A100E9FA79 /* PEMMApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PEMMApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CBB8132AE906A100E9FA79 /* PEMMApp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEMMApp2Tests.swift; sourceTree = "<group>"; };
+		66CBB8192AE906A100E9FA79 /* PEMMApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PEMMApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CBB81D2AE906A100E9FA79 /* PEMMApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEMMApp2UITests.swift; sourceTree = "<group>"; };
+		66CBB81F2AE906A100E9FA79 /* PEMMApp2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEMMApp2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66CBB82C2AE9071200E9FA79 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		66CBB82E2AE907B000E9FA79 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		66CBB8302AE907D800E9FA79 /* ExerciseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCardView.swift; sourceTree = "<group>"; };
+		66CBB8322AE9083500E9FA79 /* Time and Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time and Place.swift"; sourceTree = "<group>"; };
+		66CBB8342AE9086600E9FA79 /* TimeandPlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeandPlaceModel.swift; sourceTree = "<group>"; };
+		66CBB8362AE9088200E9FA79 /* TimeandPlaceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeandPlaceCardView.swift; sourceTree = "<group>"; };
+		66CBB8382AE908E000E9FA79 /* TimeandPlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeandPlaceListView.swift; sourceTree = "<group>"; };
+		66CBB83A2AE9093100E9FA79 /* Advice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advice.swift; sourceTree = "<group>"; };
+		66CBB83C2AE91AB900E9FA79 /* AdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceModel.swift; sourceTree = "<group>"; };
+		66CBB83E2AE91ADA00E9FA79 /* AdviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceCardView.swift; sourceTree = "<group>"; };
+		66CBB8402AE91B0500E9FA79 /* AdviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66CBB7FC2AE906A000E9FA79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CBB80C2AE906A100E9FA79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CBB8162AE906A100E9FA79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66CBB7F62AE906A000E9FA79 = {
+			isa = PBXGroup;
+			children = (
+				66CBB8012AE906A000E9FA79 /* PEMMApp2 */,
+				66CBB8122AE906A100E9FA79 /* PEMMApp2Tests */,
+				66CBB81C2AE906A100E9FA79 /* PEMMApp2UITests */,
+				66CBB8002AE906A000E9FA79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66CBB8002AE906A000E9FA79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66CBB7FF2AE906A000E9FA79 /* PEMMApp2.app */,
+				66CBB80F2AE906A100E9FA79 /* PEMMApp2Tests.xctest */,
+				66CBB8192AE906A100E9FA79 /* PEMMApp2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66CBB8012AE906A000E9FA79 /* PEMMApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				66CBB8022AE906A000E9FA79 /* PEMMApp2App.swift */,
+				66CBB82C2AE9071200E9FA79 /* Exercise.swift */,
+				66CBB82E2AE907B000E9FA79 /* ExerciseViewModel.swift */,
+				66CBB8302AE907D800E9FA79 /* ExerciseCardView.swift */,
+				66CBB8042AE906A000E9FA79 /* ExerciseListView.swift */,
+				66CBB83A2AE9093100E9FA79 /* Advice.swift */,
+				66CBB83C2AE91AB900E9FA79 /* AdviceModel.swift */,
+				66CBB83E2AE91ADA00E9FA79 /* AdviceCardView.swift */,
+				66CBB8402AE91B0500E9FA79 /* AdviceListView.swift */,
+				66CBB8322AE9083500E9FA79 /* Time and Place.swift */,
+				66CBB8342AE9086600E9FA79 /* TimeandPlaceModel.swift */,
+				66CBB8362AE9088200E9FA79 /* TimeandPlaceCardView.swift */,
+				66CBB8382AE908E000E9FA79 /* TimeandPlaceListView.swift */,
+				66CBB8062AE906A000E9FA79 /* Assets.xcassets */,
+				66CBB8082AE906A000E9FA79 /* Preview Content */,
+			);
+			path = PEMMApp2;
+			sourceTree = "<group>";
+		};
+		66CBB8082AE906A000E9FA79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66CBB8092AE906A000E9FA79 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66CBB8122AE906A100E9FA79 /* PEMMApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66CBB8132AE906A100E9FA79 /* PEMMApp2Tests.swift */,
+			);
+			path = PEMMApp2Tests;
+			sourceTree = "<group>";
+		};
+		66CBB81C2AE906A100E9FA79 /* PEMMApp2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				66CBB81D2AE906A100E9FA79 /* PEMMApp2UITests.swift */,
+				66CBB81F2AE906A100E9FA79 /* PEMMApp2UITestsLaunchTests.swift */,
+			);
+			path = PEMMApp2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66CBB7FE2AE906A000E9FA79 /* PEMMApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CBB8232AE906A100E9FA79 /* Build configuration list for PBXNativeTarget "PEMMApp2" */;
+			buildPhases = (
+				66CBB7FB2AE906A000E9FA79 /* Sources */,
+				66CBB7FC2AE906A000E9FA79 /* Frameworks */,
+				66CBB7FD2AE906A000E9FA79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PEMMApp2;
+			productName = PEMMApp2;
+			productReference = 66CBB7FF2AE906A000E9FA79 /* PEMMApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66CBB80E2AE906A100E9FA79 /* PEMMApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CBB8262AE906A100E9FA79 /* Build configuration list for PBXNativeTarget "PEMMApp2Tests" */;
+			buildPhases = (
+				66CBB80B2AE906A100E9FA79 /* Sources */,
+				66CBB80C2AE906A100E9FA79 /* Frameworks */,
+				66CBB80D2AE906A100E9FA79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CBB8112AE906A100E9FA79 /* PBXTargetDependency */,
+			);
+			name = PEMMApp2Tests;
+			productName = PEMMApp2Tests;
+			productReference = 66CBB80F2AE906A100E9FA79 /* PEMMApp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66CBB8182AE906A100E9FA79 /* PEMMApp2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CBB8292AE906A100E9FA79 /* Build configuration list for PBXNativeTarget "PEMMApp2UITests" */;
+			buildPhases = (
+				66CBB8152AE906A100E9FA79 /* Sources */,
+				66CBB8162AE906A100E9FA79 /* Frameworks */,
+				66CBB8172AE906A100E9FA79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CBB81B2AE906A100E9FA79 /* PBXTargetDependency */,
+			);
+			name = PEMMApp2UITests;
+			productName = PEMMApp2UITests;
+			productReference = 66CBB8192AE906A100E9FA79 /* PEMMApp2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66CBB7F72AE906A000E9FA79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					66CBB7FE2AE906A000E9FA79 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					66CBB80E2AE906A100E9FA79 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 66CBB7FE2AE906A000E9FA79;
+					};
+					66CBB8182AE906A100E9FA79 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 66CBB7FE2AE906A000E9FA79;
+					};
+				};
+			};
+			buildConfigurationList = 66CBB7FA2AE906A000E9FA79 /* Build configuration list for PBXProject "PEMMApp2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66CBB7F62AE906A000E9FA79;
+			productRefGroup = 66CBB8002AE906A000E9FA79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66CBB7FE2AE906A000E9FA79 /* PEMMApp2 */,
+				66CBB80E2AE906A100E9FA79 /* PEMMApp2Tests */,
+				66CBB8182AE906A100E9FA79 /* PEMMApp2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66CBB7FD2AE906A000E9FA79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CBB80A2AE906A000E9FA79 /* Preview Assets.xcassets in Resources */,
+				66CBB8072AE906A000E9FA79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CBB80D2AE906A100E9FA79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CBB8172AE906A100E9FA79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66CBB7FB2AE906A000E9FA79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CBB8052AE906A000E9FA79 /* ExerciseListView.swift in Sources */,
+				66CBB8392AE908E000E9FA79 /* TimeandPlaceListView.swift in Sources */,
+				66CBB8372AE9088200E9FA79 /* TimeandPlaceCardView.swift in Sources */,
+				66CBB8312AE907D800E9FA79 /* ExerciseCardView.swift in Sources */,
+				66CBB83D2AE91AB900E9FA79 /* AdviceModel.swift in Sources */,
+				66CBB8352AE9086700E9FA79 /* TimeandPlaceModel.swift in Sources */,
+				66CBB8032AE906A000E9FA79 /* PEMMApp2App.swift in Sources */,
+				66CBB82F2AE907B000E9FA79 /* ExerciseViewModel.swift in Sources */,
+				66CBB83F2AE91ADA00E9FA79 /* AdviceCardView.swift in Sources */,
+				66CBB83B2AE9093100E9FA79 /* Advice.swift in Sources */,
+				66CBB8412AE91B0500E9FA79 /* AdviceListView.swift in Sources */,
+				66CBB8332AE9083500E9FA79 /* Time and Place.swift in Sources */,
+				66CBB82D2AE9071200E9FA79 /* Exercise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CBB80B2AE906A100E9FA79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CBB8142AE906A100E9FA79 /* PEMMApp2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CBB8152AE906A100E9FA79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CBB8202AE906A100E9FA79 /* PEMMApp2UITestsLaunchTests.swift in Sources */,
+				66CBB81E2AE906A100E9FA79 /* PEMMApp2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66CBB8112AE906A100E9FA79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CBB7FE2AE906A000E9FA79 /* PEMMApp2 */;
+			targetProxy = 66CBB8102AE906A100E9FA79 /* PBXContainerItemProxy */;
+		};
+		66CBB81B2AE906A100E9FA79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CBB7FE2AE906A000E9FA79 /* PEMMApp2 */;
+			targetProxy = 66CBB81A2AE906A100E9FA79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66CBB8212AE906A100E9FA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66CBB8222AE906A100E9FA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66CBB8242AE906A100E9FA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PEMMApp2/Preview Content\"";
+				DEVELOPMENT_TEAM = T5C2RB4SL5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.PEMMApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66CBB8252AE906A100E9FA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PEMMApp2/Preview Content\"";
+				DEVELOPMENT_TEAM = T5C2RB4SL5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.PEMMApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66CBB8272AE906A100E9FA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5C2RB4SL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.PEMMApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PEMMApp2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PEMMApp2";
+			};
+			name = Debug;
+		};
+		66CBB8282AE906A100E9FA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5C2RB4SL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.PEMMApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PEMMApp2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PEMMApp2";
+			};
+			name = Release;
+		};
+		66CBB82A2AE906A100E9FA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5C2RB4SL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.PEMMApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PEMMApp2;
+			};
+			name = Debug;
+		};
+		66CBB82B2AE906A100E9FA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5C2RB4SL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.PEMMApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PEMMApp2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66CBB7FA2AE906A000E9FA79 /* Build configuration list for PBXProject "PEMMApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CBB8212AE906A100E9FA79 /* Debug */,
+				66CBB8222AE906A100E9FA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CBB8232AE906A100E9FA79 /* Build configuration list for PBXNativeTarget "PEMMApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CBB8242AE906A100E9FA79 /* Debug */,
+				66CBB8252AE906A100E9FA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CBB8262AE906A100E9FA79 /* Build configuration list for PBXNativeTarget "PEMMApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CBB8272AE906A100E9FA79 /* Debug */,
+				66CBB8282AE906A100E9FA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CBB8292AE906A100E9FA79 /* Build configuration list for PBXNativeTarget "PEMMApp2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CBB82A2AE906A100E9FA79 /* Debug */,
+				66CBB82B2AE906A100E9FA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66CBB7F72AE906A000E9FA79 /* Project object */;
+}
