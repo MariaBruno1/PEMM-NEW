@@ -12,24 +12,42 @@ struct ContentView: View {
     var viewModel = AdviceModel()
     
     var body: some View {
-        
-        NavigationStack {
-            List {
-                ForEach(viewModel.advices) { advice in
-                    
-                    NavigationLink {
-                        AdviceCardView(advice: advice)
-                    } label: {
-                        HStack {
-                            Text(advice.name)
-                                .padding()
+            
+            NavigationStack{
+                List{
+                        ForEach(viewModel.advices) { advice in
+                            
+                            NavigationLink {
+                                AdviceCardView(advice: advice)
+                            } label: {
+                                HStack {
+                                    Text(advice.name)
+                                        .padding()
+                                }
+                                
+                            }
                         }
+                        
+                        
+                        .padding()
+                        
                     }
                 }
+                
+                
             }
+            
         }
-    }
-}
+        
+    
+
+
+       
+
+
+
+
+ 
 
 #Preview {
     ContentView()

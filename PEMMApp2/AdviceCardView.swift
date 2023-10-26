@@ -12,26 +12,30 @@ struct AdviceCardView: View {
     var advice: Advice
     
     var body: some View {
-        
-        ScrollView {
-            Text(advice.name)
-                .font(.title)
-                .bold()
-                .padding()
-            Text(advice.description)
-                .padding()
+        ZStack{
+            Color("det")
+                .ignoresSafeArea()
             
-            Image(advice.imageName)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(height:200)
-                .padding()
-            
+            ScrollView {
+                Text(advice.name)
+                    .font(.title)
+                    .bold()
+                    .padding()
+                Text(advice.description)
+                    .padding()
+                
+                Image(advice.imageName)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height:200)
+                    .padding()
+                
+                
+            }
             
         }
         
     }
-    
 }
 
 #Preview {
