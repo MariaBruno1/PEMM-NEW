@@ -25,9 +25,7 @@
 		66CBB83D2AE91AB900E9FA79 /* AdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB83C2AE91AB900E9FA79 /* AdviceModel.swift */; };
 		66CBB83F2AE91ADA00E9FA79 /* AdviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB83E2AE91ADA00E9FA79 /* AdviceCardView.swift */; };
 		66CBB8412AE91B0500E9FA79 /* AdviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8402AE91B0500E9FA79 /* AdviceListView.swift */; };
-		66CBB8432AEA514B00E9FA79 /* WorkAdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8422AEA514B00E9FA79 /* WorkAdviceModel.swift */; };
 		66CBB8452AEA526D00E9FA79 /* WorkAdvice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8442AEA526D00E9FA79 /* WorkAdvice.swift */; };
-		66CBB8472AEA5D4100E9FA79 /* WorkAdviceCardlViewswift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8462AEA5D4100E9FA79 /* WorkAdviceCardlViewswift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +67,7 @@
 		66CBB83C2AE91AB900E9FA79 /* AdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceModel.swift; sourceTree = "<group>"; };
 		66CBB83E2AE91ADA00E9FA79 /* AdviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceCardView.swift; sourceTree = "<group>"; };
 		66CBB8402AE91B0500E9FA79 /* AdviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceListView.swift; sourceTree = "<group>"; };
-		66CBB8422AEA514B00E9FA79 /* WorkAdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkAdviceModel.swift; path = "../../tmp/PEMM-NEW/PEMMApp2/WorkAdviceModel.swift"; sourceTree = "<group>"; };
 		66CBB8442AEA526D00E9FA79 /* WorkAdvice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkAdvice.swift; sourceTree = "<group>"; };
-		66CBB8462AEA5D4100E9FA79 /* WorkAdviceCardlViewswift */ = {isa = PBXFileReference; lastKnownFileType = text; path = WorkAdviceCardlViewswift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +126,6 @@
 				66CBB83A2AE9093100E9FA79 /* Advice.swift */,
 				66CBB8442AEA526D00E9FA79 /* WorkAdvice.swift */,
 				66CBB83C2AE91AB900E9FA79 /* AdviceModel.swift */,
-				66CBB8422AEA514B00E9FA79 /* WorkAdviceModel.swift */,
-				66CBB8462AEA5D4100E9FA79 /* WorkAdviceCardlViewswift */,
 				66CBB83E2AE91ADA00E9FA79 /* AdviceCardView.swift */,
 				66CBB8402AE91B0500E9FA79 /* AdviceListView.swift */,
 				66CBB8322AE9083500E9FA79 /* Time and Place.swift */,
@@ -300,7 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CBB8052AE906A000E9FA79 /* ExerciseListView.swift in Sources */,
-				66CBB8432AEA514B00E9FA79 /* WorkAdviceModel.swift in Sources */,
 				66CBB8392AE908E000E9FA79 /* TimeandPlaceListView.swift in Sources */,
 				66CBB8372AE9088200E9FA79 /* TimeandPlaceCardView.swift in Sources */,
 				66CBB8312AE907D800E9FA79 /* ExerciseCardView.swift in Sources */,
@@ -313,7 +306,6 @@
 				66CBB8412AE91B0500E9FA79 /* AdviceListView.swift in Sources */,
 				66CBB8332AE9083500E9FA79 /* Time and Place.swift in Sources */,
 				66CBB8452AEA526D00E9FA79 /* WorkAdvice.swift in Sources */,
-				66CBB8472AEA5D4100E9FA79 /* WorkAdviceCardlViewswift in Sources */,
 				66CBB82D2AE9071200E9FA79 /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
