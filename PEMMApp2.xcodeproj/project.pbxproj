@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66A5B91F2AEA6E7C0002B7AF /* WorkAdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B91E2AEA6E7C0002B7AF /* WorkAdviceModel.swift */; };
+		66A5B9212AEA721C0002B7AF /* WorkAdviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9202AEA721C0002B7AF /* WorkAdviceCardView.swift */; };
+		66A5B9252AEA78A30002B7AF /* WorkAdviceViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9242AEA78A30002B7AF /* WorkAdviceViewList.swift */; };
+		66A5B9272AEAB8290002B7AF /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9262AEAB8290002B7AF /* University.swift */; };
+		66A5B92B2AEAC2E90002B7AF /* UniversityAdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B92A2AEAC2E90002B7AF /* UniversityAdviceModel.swift */; };
+		66A5B92D2AEAC8140002B7AF /* UniversityAdviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B92C2AEAC8140002B7AF /* UniversityAdviceCardView.swift */; };
+		66A5B92F2AEACDB90002B7AF /* UniversityAdviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B92E2AEACDB90002B7AF /* UniversityAdviceListView.swift */; };
+		66A5B9312AEB10190002B7AF /* Segmented Control Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9302AEB10190002B7AF /* Segmented Control Time.swift */; };
 		66CBB8032AE906A000E9FA79 /* PEMMApp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8022AE906A000E9FA79 /* PEMMApp2App.swift */; };
 		66CBB8052AE906A000E9FA79 /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8042AE906A000E9FA79 /* ExerciseListView.swift */; };
 		66CBB8072AE906A000E9FA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CBB8062AE906A000E9FA79 /* Assets.xcassets */; };
@@ -46,6 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66A5B91E2AEA6E7C0002B7AF /* WorkAdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkAdviceModel.swift; sourceTree = "<group>"; };
+		66A5B9202AEA721C0002B7AF /* WorkAdviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkAdviceCardView.swift; sourceTree = "<group>"; };
+		66A5B9242AEA78A30002B7AF /* WorkAdviceViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkAdviceViewList.swift; sourceTree = "<group>"; };
+		66A5B9262AEAB8290002B7AF /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		66A5B92A2AEAC2E90002B7AF /* UniversityAdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAdviceModel.swift; sourceTree = "<group>"; };
+		66A5B92C2AEAC8140002B7AF /* UniversityAdviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAdviceCardView.swift; sourceTree = "<group>"; };
+		66A5B92E2AEACDB90002B7AF /* UniversityAdviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAdviceListView.swift; sourceTree = "<group>"; };
+		66A5B9302AEB10190002B7AF /* Segmented Control Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segmented Control Time.swift"; sourceTree = "<group>"; };
 		66CBB7FF2AE906A000E9FA79 /* PEMMApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PEMMApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CBB8022AE906A000E9FA79 /* PEMMApp2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEMMApp2App.swift; sourceTree = "<group>"; };
 		66CBB8042AE906A000E9FA79 /* ExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListView.swift; sourceTree = "<group>"; };
@@ -122,16 +138,24 @@
 				66CBB82C2AE9071200E9FA79 /* Exercise.swift */,
 				66CBB82E2AE907B000E9FA79 /* ExerciseViewModel.swift */,
 				66CBB8302AE907D800E9FA79 /* ExerciseCardView.swift */,
+				66A5B9302AEB10190002B7AF /* Segmented Control Time.swift */,
 				66CBB8042AE906A000E9FA79 /* ExerciseListView.swift */,
 				66CBB83A2AE9093100E9FA79 /* Advice.swift */,
 				66CBB8442AEA526D00E9FA79 /* WorkAdvice.swift */,
+				66A5B91E2AEA6E7C0002B7AF /* WorkAdviceModel.swift */,
+				66A5B9202AEA721C0002B7AF /* WorkAdviceCardView.swift */,
 				66CBB83C2AE91AB900E9FA79 /* AdviceModel.swift */,
 				66CBB83E2AE91ADA00E9FA79 /* AdviceCardView.swift */,
 				66CBB8402AE91B0500E9FA79 /* AdviceListView.swift */,
+				66A5B9242AEA78A30002B7AF /* WorkAdviceViewList.swift */,
 				66CBB8322AE9083500E9FA79 /* Time and Place.swift */,
 				66CBB8342AE9086600E9FA79 /* TimeandPlaceModel.swift */,
 				66CBB8362AE9088200E9FA79 /* TimeandPlaceCardView.swift */,
 				66CBB8382AE908E000E9FA79 /* TimeandPlaceListView.swift */,
+				66A5B9262AEAB8290002B7AF /* University.swift */,
+				66A5B92A2AEAC2E90002B7AF /* UniversityAdviceModel.swift */,
+				66A5B92C2AEAC8140002B7AF /* UniversityAdviceCardView.swift */,
+				66A5B92E2AEACDB90002B7AF /* UniversityAdviceListView.swift */,
 				66CBB8062AE906A000E9FA79 /* Assets.xcassets */,
 				66CBB8082AE906A000E9FA79 /* Preview Content */,
 			);
@@ -296,17 +320,25 @@
 				66CBB8052AE906A000E9FA79 /* ExerciseListView.swift in Sources */,
 				66CBB8392AE908E000E9FA79 /* TimeandPlaceListView.swift in Sources */,
 				66CBB8372AE9088200E9FA79 /* TimeandPlaceCardView.swift in Sources */,
+				66A5B9312AEB10190002B7AF /* Segmented Control Time.swift in Sources */,
 				66CBB8312AE907D800E9FA79 /* ExerciseCardView.swift in Sources */,
 				66CBB83D2AE91AB900E9FA79 /* AdviceModel.swift in Sources */,
+				66A5B91F2AEA6E7C0002B7AF /* WorkAdviceModel.swift in Sources */,
 				66CBB8352AE9086700E9FA79 /* TimeandPlaceModel.swift in Sources */,
+				66A5B9212AEA721C0002B7AF /* WorkAdviceCardView.swift in Sources */,
+				66A5B92B2AEAC2E90002B7AF /* UniversityAdviceModel.swift in Sources */,
 				66CBB8032AE906A000E9FA79 /* PEMMApp2App.swift in Sources */,
 				66CBB82F2AE907B000E9FA79 /* ExerciseViewModel.swift in Sources */,
 				66CBB83F2AE91ADA00E9FA79 /* AdviceCardView.swift in Sources */,
+				66A5B9272AEAB8290002B7AF /* University.swift in Sources */,
 				66CBB83B2AE9093100E9FA79 /* Advice.swift in Sources */,
 				66CBB8412AE91B0500E9FA79 /* AdviceListView.swift in Sources */,
+				66A5B92F2AEACDB90002B7AF /* UniversityAdviceListView.swift in Sources */,
 				66CBB8332AE9083500E9FA79 /* Time and Place.swift in Sources */,
+				66A5B92D2AEAC8140002B7AF /* UniversityAdviceCardView.swift in Sources */,
 				66CBB8452AEA526D00E9FA79 /* WorkAdvice.swift in Sources */,
 				66CBB82D2AE9071200E9FA79 /* Exercise.swift in Sources */,
+				66A5B9252AEA78A30002B7AF /* WorkAdviceViewList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

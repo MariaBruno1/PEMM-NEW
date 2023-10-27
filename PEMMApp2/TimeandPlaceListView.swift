@@ -15,19 +15,19 @@ struct TimeandPlaceListView: View {
         ZStack {
             Color("det")
                 .ignoresSafeArea()
-            VStack {
-                
-            }
-            ScrollView {
-                ForEach(timeandplaceVM.places) { timeandplace in TimeandPlaceCardView(timeandplace: timeandplace)
-                        .padding()
-                        .frame(width: 390.0, height: 210.0)
+                ScrollView {
+                    ForEach(timeandplaceVM.places) { timeandplace in
+                        NavigationLink(){
+                            ContentView()
+                        }label:{
+                            TimeandPlaceCardView(timeandplace: timeandplace)
+                                .padding()
+                                .frame(width: 390.0, height: 210.0)
+                        }
+                        .navigationTitle("Select time and place")
+                        
                 }
-                .navigationTitle("Select time and place")
-                
-                
             }
-            
         }
     }
 }

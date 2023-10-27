@@ -10,7 +10,7 @@ import SwiftUI
 struct ExerciseListView: View {
     var exerciseVM = ExerciseViewModel()
     var body: some View {
-        NavigationView {
+        NavigationStack {
             
             ZStack {
                 Color("det")
