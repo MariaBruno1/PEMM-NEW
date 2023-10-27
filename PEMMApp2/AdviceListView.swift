@@ -55,10 +55,8 @@ struct ContentView: View {
                         
                 }.navigationTitle("Positions")
                 
-//                Picker(selection: .cosnstant(1) , label: Text("Challange")){
-//                    Text("Challange accepted").tag(1)
-//                    Text("Challange Unaccepted").tag(2)
-//                }
+
+               }
                 
                 
                 }
@@ -66,8 +64,7 @@ struct ContentView: View {
                 
             }
             
-        }
-        
+    
     
 
 
