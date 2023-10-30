@@ -35,7 +35,7 @@ struct TimeandPlaceCardView: View {
 }
 
 #Preview {
-    let timeandplace = TimeandPlace(name:"Home", imageName: "Home image")
+    let timeandplace = TimeandPlace(name:"Home", imageName: "Home image", type: .home)
     
     return TimeandPlaceCardView(timeandplace: timeandplace)
 }

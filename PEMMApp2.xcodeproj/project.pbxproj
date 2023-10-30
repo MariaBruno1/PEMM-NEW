@@ -15,6 +15,15 @@
 		66A5B92D2AEAC8140002B7AF /* UniversityAdviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B92C2AEAC8140002B7AF /* UniversityAdviceCardView.swift */; };
 		66A5B92F2AEACDB90002B7AF /* UniversityAdviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B92E2AEACDB90002B7AF /* UniversityAdviceListView.swift */; };
 		66A5B9312AEB10190002B7AF /* Segmented Control Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9302AEB10190002B7AF /* Segmented Control Time.swift */; };
+		66A5B9332AEC33D10002B7AF /* BreathingAdvice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9322AEC33D10002B7AF /* BreathingAdvice.swift */; };
+		66A5B9352AEC34110002B7AF /* BreathingAdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9342AEC34110002B7AF /* BreathingAdviceModel.swift */; };
+		66A5B9372AEC48DA0002B7AF /* BreathingAdviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9362AEC48DA0002B7AF /* BreathingAdviceCardView.swift */; };
+		66A5B9392AEC5E8E0002B7AF /* BreathingAdviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9382AEC5E8E0002B7AF /* BreathingAdviceListView.swift */; };
+		66A5B93B2AED4D590002B7AF /* PilatesAdvice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B93A2AED4D590002B7AF /* PilatesAdvice.swift */; };
+		66A5B93D2AED4DCB0002B7AF /* PilatesAdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B93C2AED4DCB0002B7AF /* PilatesAdviceModel.swift */; };
+		66A5B93F2AED52B20002B7AF /* PilatesAdviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B93E2AED52B20002B7AF /* PilatesAdviceCardView.swift */; };
+		66A5B9412AED53E40002B7AF /* PilatesAdviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9402AED53E40002B7AF /* PilatesAdviceListView.swift */; };
+		66A5B9432AEFB6B40002B7AF /* TimeAndPlaceViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B9422AEFB6B40002B7AF /* TimeAndPlaceViewType.swift */; };
 		66CBB8032AE906A000E9FA79 /* PEMMApp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8022AE906A000E9FA79 /* PEMMApp2App.swift */; };
 		66CBB8052AE906A000E9FA79 /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBB8042AE906A000E9FA79 /* ExerciseListView.swift */; };
 		66CBB8072AE906A000E9FA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CBB8062AE906A000E9FA79 /* Assets.xcassets */; };
@@ -62,6 +71,15 @@
 		66A5B92C2AEAC8140002B7AF /* UniversityAdviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAdviceCardView.swift; sourceTree = "<group>"; };
 		66A5B92E2AEACDB90002B7AF /* UniversityAdviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAdviceListView.swift; sourceTree = "<group>"; };
 		66A5B9302AEB10190002B7AF /* Segmented Control Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segmented Control Time.swift"; sourceTree = "<group>"; };
+		66A5B9322AEC33D10002B7AF /* BreathingAdvice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAdvice.swift; sourceTree = "<group>"; };
+		66A5B9342AEC34110002B7AF /* BreathingAdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAdviceModel.swift; sourceTree = "<group>"; };
+		66A5B9362AEC48DA0002B7AF /* BreathingAdviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAdviceCardView.swift; sourceTree = "<group>"; };
+		66A5B9382AEC5E8E0002B7AF /* BreathingAdviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAdviceListView.swift; sourceTree = "<group>"; };
+		66A5B93A2AED4D590002B7AF /* PilatesAdvice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilatesAdvice.swift; sourceTree = "<group>"; };
+		66A5B93C2AED4DCB0002B7AF /* PilatesAdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilatesAdviceModel.swift; sourceTree = "<group>"; };
+		66A5B93E2AED52B20002B7AF /* PilatesAdviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilatesAdviceCardView.swift; sourceTree = "<group>"; };
+		66A5B9402AED53E40002B7AF /* PilatesAdviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilatesAdviceListView.swift; sourceTree = "<group>"; };
+		66A5B9422AEFB6B40002B7AF /* TimeAndPlaceViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndPlaceViewType.swift; sourceTree = "<group>"; };
 		66CBB7FF2AE906A000E9FA79 /* PEMMApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PEMMApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CBB8022AE906A000E9FA79 /* PEMMApp2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEMMApp2App.swift; sourceTree = "<group>"; };
 		66CBB8042AE906A000E9FA79 /* ExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListView.swift; sourceTree = "<group>"; };
@@ -141,6 +159,14 @@
 				66A5B9302AEB10190002B7AF /* Segmented Control Time.swift */,
 				66CBB8042AE906A000E9FA79 /* ExerciseListView.swift */,
 				66CBB83A2AE9093100E9FA79 /* Advice.swift */,
+				66A5B9322AEC33D10002B7AF /* BreathingAdvice.swift */,
+				66A5B93A2AED4D590002B7AF /* PilatesAdvice.swift */,
+				66A5B93C2AED4DCB0002B7AF /* PilatesAdviceModel.swift */,
+				66A5B93E2AED52B20002B7AF /* PilatesAdviceCardView.swift */,
+				66A5B9402AED53E40002B7AF /* PilatesAdviceListView.swift */,
+				66A5B9342AEC34110002B7AF /* BreathingAdviceModel.swift */,
+				66A5B9362AEC48DA0002B7AF /* BreathingAdviceCardView.swift */,
+				66A5B9382AEC5E8E0002B7AF /* BreathingAdviceListView.swift */,
 				66CBB8442AEA526D00E9FA79 /* WorkAdvice.swift */,
 				66A5B91E2AEA6E7C0002B7AF /* WorkAdviceModel.swift */,
 				66A5B9202AEA721C0002B7AF /* WorkAdviceCardView.swift */,
@@ -152,6 +178,7 @@
 				66CBB8342AE9086600E9FA79 /* TimeandPlaceModel.swift */,
 				66CBB8362AE9088200E9FA79 /* TimeandPlaceCardView.swift */,
 				66CBB8382AE908E000E9FA79 /* TimeandPlaceListView.swift */,
+				66A5B9422AEFB6B40002B7AF /* TimeAndPlaceViewType.swift */,
 				66A5B9262AEAB8290002B7AF /* University.swift */,
 				66A5B92A2AEAC2E90002B7AF /* UniversityAdviceModel.swift */,
 				66A5B92C2AEAC8140002B7AF /* UniversityAdviceCardView.swift */,
@@ -318,19 +345,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CBB8052AE906A000E9FA79 /* ExerciseListView.swift in Sources */,
+				66A5B9432AEFB6B40002B7AF /* TimeAndPlaceViewType.swift in Sources */,
 				66CBB8392AE908E000E9FA79 /* TimeandPlaceListView.swift in Sources */,
 				66CBB8372AE9088200E9FA79 /* TimeandPlaceCardView.swift in Sources */,
+				66A5B9392AEC5E8E0002B7AF /* BreathingAdviceListView.swift in Sources */,
 				66A5B9312AEB10190002B7AF /* Segmented Control Time.swift in Sources */,
+				66A5B9412AED53E40002B7AF /* PilatesAdviceListView.swift in Sources */,
 				66CBB8312AE907D800E9FA79 /* ExerciseCardView.swift in Sources */,
 				66CBB83D2AE91AB900E9FA79 /* AdviceModel.swift in Sources */,
 				66A5B91F2AEA6E7C0002B7AF /* WorkAdviceModel.swift in Sources */,
 				66CBB8352AE9086700E9FA79 /* TimeandPlaceModel.swift in Sources */,
 				66A5B9212AEA721C0002B7AF /* WorkAdviceCardView.swift in Sources */,
+				66A5B93D2AED4DCB0002B7AF /* PilatesAdviceModel.swift in Sources */,
 				66A5B92B2AEAC2E90002B7AF /* UniversityAdviceModel.swift in Sources */,
+				66A5B9332AEC33D10002B7AF /* BreathingAdvice.swift in Sources */,
+				66A5B93F2AED52B20002B7AF /* PilatesAdviceCardView.swift in Sources */,
 				66CBB8032AE906A000E9FA79 /* PEMMApp2App.swift in Sources */,
+				66A5B93B2AED4D590002B7AF /* PilatesAdvice.swift in Sources */,
 				66CBB82F2AE907B000E9FA79 /* ExerciseViewModel.swift in Sources */,
 				66CBB83F2AE91ADA00E9FA79 /* AdviceCardView.swift in Sources */,
+				66A5B9352AEC34110002B7AF /* BreathingAdviceModel.swift in Sources */,
 				66A5B9272AEAB8290002B7AF /* University.swift in Sources */,
+				66A5B9372AEC48DA0002B7AF /* BreathingAdviceCardView.swift in Sources */,
 				66CBB83B2AE9093100E9FA79 /* Advice.swift in Sources */,
 				66CBB8412AE91B0500E9FA79 /* AdviceListView.swift in Sources */,
 				66A5B92F2AEACDB90002B7AF /* UniversityAdviceListView.swift in Sources */,

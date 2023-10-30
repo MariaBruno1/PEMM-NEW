@@ -1,19 +1,21 @@
 //
-//  UniversityAdviceListView.swift
+//  BreathingAdviceListView.swift
 //  PEMMApp2
 //
-//  Created by Maria Bruno on 26/10/23.
+//  Created by Maria Bruno on 27/10/23.
 //
 
 import SwiftUI
 
-struct UniversityAdviceListView: View {
-    var viewModel = UniversityAdviceModel()
-    
-    @State var selection: String = "5-10 Mins"
-    let filterOption: [String] = ["5-10 Mins", "15-30 Mins", "1 Hour"]
-    
-    var body: some View {
+struct BreathingAdviceListView: View {
+        
+        var viewModel = BreathingAdviceModel()
+        
+        @State var selection: String = "5-10 Mins"
+        let filterOption: [String] = ["5-10 Mins", "15-30 Mins", "1 Hour"]
+        
+        var body: some View {
+           
                 NavigationStack{
                     Picker(
                         selection: $selection,
@@ -35,13 +37,13 @@ struct UniversityAdviceListView: View {
                     .padding(.top)
                     
                     List{
-                            ForEach(viewModel.universityadvices) { universityadvice in
+                            ForEach(viewModel.breathingadvices) { breathingadvice in
                                 
                                 NavigationLink {
-                                    UniversityAdviceCardView(universityadvice: universityadvice)
+                                    BreathingAdviceCardView(breathingadvice: breathingadvice)
                                 } label: {
                                     HStack {
-                                        Text(universityadvice.name)
+                                        Text(breathingadvice.name)
                                             .padding()
                                     }
                                     
@@ -51,15 +53,12 @@ struct UniversityAdviceListView: View {
                             
                             .padding()
                             
-                        }.navigationTitle("Positions")
-                }
+                    }.navigationTitle("Positions")
                     
-                    
-                }
-                
-            }
-                
 
+                   }
+                    }
+                    }
 #Preview {
-    UniversityAdviceListView()
+    BreathingAdviceListView()
 }

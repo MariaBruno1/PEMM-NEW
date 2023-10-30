@@ -31,17 +31,20 @@ struct UniversityAdviceCardView: View {
                 
                 
             }
+                
+            }
             
         }
         
     }
-}
+
 
 #Preview {
     UniversityAdviceCardView (universityadvice: University (name: "Seated Cat & Cow",
                                              description: "Sit up straight and place your hands gently on your lap. As you inhale, press your chest and belly out as far as you can, arching your back. As you exhale, tuck your belly and chest so your spine makes a C-curve. Repeat 4-6 times.",
-                                             imageName: "Seated cat image")
+                                                            imageName: "Seated cat image", location: "University")
                  )
+    
              }
 
 

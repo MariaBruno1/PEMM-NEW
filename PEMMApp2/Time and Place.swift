@@ -6,9 +6,11 @@
 //
 
 import Foundation
+import SwiftUI
+
 struct TimeandPlace: Identifiable {
     var id = UUID()
     var name: String
     var imageName: String
+    var type: TimeAndPlaceViewType
 }
-

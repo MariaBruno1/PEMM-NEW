@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AdviceListView: View {
     
     var viewModel = AdviceModel()
     
@@ -57,24 +57,8 @@ struct ContentView: View {
                 
 
                }
-                
-                
                 }
-                
-                
-            }
-            
-    
-    
-
-
-       
-
-
-
-
- 
-
+                }
 #Preview {
-    ContentView()
+    AdviceListView()
 }

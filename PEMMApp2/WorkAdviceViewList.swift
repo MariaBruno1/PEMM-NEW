@@ -10,9 +10,31 @@ import SwiftUI
 struct WorkAdviceViewList: View {
     var viewModel = WorkAdviceModel()
     
+    @State var selection: String = "5-10 Mins"
+    let filterOption: [String] = ["5-10 Mins", "15-30 Mins", "1 Hour"]
+    
     var body: some View {
             
             NavigationStack{
+                Picker(
+                    selection: $selection,
+                    label:
+                        HStack {
+                            Text("Challage:")
+                            Text(selection)
+                        }
+                    ,
+                    content: {
+                        ForEach(filterOption, id: \.self){ option in
+                            Text(option)
+                                .tag(option)
+                            
+                        }
+                    }
+                )
+                .pickerStyle(.segmented)
+                .padding(.top)
+                
                 List{
                         ForEach(viewModel.workadvices) { workadvice in
                             
@@ -30,21 +52,13 @@ struct WorkAdviceViewList: View {
                         
                         .padding()
                         
-                    }
-                }
+                    }.navigationTitle("Positions")
+            }
                 
                 
             }
             
         }
-        
-    
-
-
-       
-
-
-
 #Preview {
     WorkAdviceViewList()
 }

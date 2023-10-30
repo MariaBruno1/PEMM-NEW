@@ -11,5 +11,6 @@ struct WorkAdvice: Identifiable {
     var name: String
     var description: String
     var imageName: String
+    var location: String
 }
 

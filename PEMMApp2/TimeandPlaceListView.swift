@@ -9,30 +9,41 @@ import SwiftUI
 
 struct TimeandPlaceListView: View {
     @State private var currentDate = Date()
-    var timeandplaceVM = TimeandPlaceModel()
+    var timeandplaceVM : [TimeandPlace] = TimeandPlaceModel().places
+    
     var body: some View {
         
-        ZStack {
+        NavigationStack{
+            ZStack {
             Color("det")
                 .ignoresSafeArea()
-                ScrollView {
-                    ForEach(timeandplaceVM.places) { timeandplace in
-                        NavigationLink(){
-                            ContentView()
-                        }label:{
-                            TimeandPlaceCardView(timeandplace: timeandplace)
-                                .padding()
-                                .frame(width: 390.0, height: 210.0)
+            ScrollView {
+                ForEach(timeandplaceVM, id: \.id) { timeandplace in
+                    NavigationLink {
+                        if timeandplace.type == .home {
+                            AdviceListView()
+                        } else if timeandplace.type == .university {
+                            UniversityAdviceListView()
+                        } else if timeandplace.type == .work {
+                            WorkAdviceViewList()
                         }
-                        .navigationTitle("Select time and place")
-                        
-                }
+                    }label:{
+                        TimeandPlaceCardView(timeandplace: timeandplace)
+                            .padding()
+                            .frame(width: 390.0, height: 210.0)
+                    }
+                  
+                
+                    
+                }   .navigationTitle("Select time and place")
             }
-        }
+        }}
     }
 }
+    
+
 
 
 #Preview {
-    TimeandPlaceListView()
+    TimeandPlaceListView ()
 }

@@ -10,7 +10,5 @@ struct Exercise: Identifiable {
     var id = UUID()
     var name: String
     var imageName: String
-
-
 }
 

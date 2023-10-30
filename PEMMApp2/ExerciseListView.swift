@@ -19,30 +19,21 @@ struct ExerciseListView: View {
                     ScrollView {
                         ForEach(exerciseVM.exercises) { exercise in
                             
-                            NavigationLink(){
-                                TimeandPlaceListView()
+                            NavigationLink(){ TimeandPlaceListView()
                             }label:{
-                                ExerciseCardView(exercise: exercise)
+                                ExerciseCardView(exercise:exercise)
                                     .padding()
                                     .frame(width: 390.0, height: 210.0)
-                                
                             }
                         }
+                        .navigationTitle ("Select the exercise")
                     }
-                    .navigationTitle ("Select the exercise")
+                    
                 }
-                
             }
         }
     }
 }
-                
-                           
-    
-
-    
-
-
 #Preview {
     ExerciseListView()
 }
