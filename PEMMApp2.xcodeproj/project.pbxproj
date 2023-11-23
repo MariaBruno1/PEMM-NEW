@@ -154,8 +154,8 @@
 			children = (
 				66CBB8022AE906A000E9FA79 /* PEMMApp2App.swift */,
 				66CBB82C2AE9071200E9FA79 /* Exercise.swift */,
-				66CBB82E2AE907B000E9FA79 /* ExerciseViewModel.swift */,
 				66CBB8302AE907D800E9FA79 /* ExerciseCardView.swift */,
+				66CBB82E2AE907B000E9FA79 /* ExerciseViewModel.swift */,
 				66A5B9302AEB10190002B7AF /* Segmented Control Time.swift */,
 				66CBB8042AE906A000E9FA79 /* ExerciseListView.swift */,
 				66CBB83A2AE9093100E9FA79 /* Advice.swift */,
@@ -538,7 +538,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PEMMApp2/Preview Content\"";
-				DEVELOPMENT_TEAM = T5C2RB4SL5;
+				DEVELOPMENT_TEAM = VHQ6HZ79LK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -551,7 +551,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.PEMMApp2;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -567,7 +567,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PEMMApp2/Preview Content\"";
-				DEVELOPMENT_TEAM = T5C2RB4SL5;
+				DEVELOPMENT_TEAM = VHQ6HZ79LK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -580,7 +580,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.PEMMApp2;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
